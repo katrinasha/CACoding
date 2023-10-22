@@ -32,6 +32,7 @@ public class ClearViewModel extends ViewModel {
 
     @Override
     public void addPropertyChangeListener(PropertyChangeListener listener) {
+        support.addPropertyChangeListener(listener);
 
     }
     public ClearState getState() {
